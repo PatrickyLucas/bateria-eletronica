@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
@@ -12,12 +14,16 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VT323', monospace;
   min-height: 100vh;
 }
 
+.imagem_bateria {
+  width: 10%;
+}
+
 .titulo_principal {
-  color: var(--branca);
+  color: red;
   margin-bottom: 20px;
   font-size: 5rem;
 }
