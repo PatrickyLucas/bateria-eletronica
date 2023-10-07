@@ -16,10 +16,10 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+.titulo_principal {
   color: var(--branca);
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .teclado {
